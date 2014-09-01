@@ -1,0 +1,19 @@
+{
+    "code": 0,
+    "msg": "",
+    "app_code": "路由器返回代码",
+    "app_msg": "路由器返回文字描述",
+    "soure": "1",
+    "data": {},   // "平台返回其他数据"
+    "app_data": {            // "路由器返回的其他数据"
+        "device": {
+            "name": "android_nexus4",
+            "is_online": 1, // 设备当前是否在线 0:不在线 1:在线
+            "control_level": 10, // 设备控制级别 // 0: 不限制 10:聊天 20:网页30:视频
+            "block_start_time": 1408584475, // 开始限制的时间点 时间戳，无限制时传0
+            "block_end_time": 1408594475, // 解除上网限制的时间点 时间戳，无限制时传0
+            "connection_notify": 0, // 设备连接是否提醒
+            "heavy_traffic_notify": 0    // 大流量是否提醒
+        }
+    }
+}

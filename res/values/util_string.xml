@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 加载框 -->
+    <string name="load_data_warn_str">数据加载中\u2026</string>
+
+    <!-- 数据异常 -->
+    <string name="load_data_error">获取数据异常</string>
+
+</resources>
